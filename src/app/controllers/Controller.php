@@ -1,5 +1,7 @@
 <?php
 
+namespace controllers;
+
 class Controller {
 
 	/**
@@ -8,7 +10,7 @@ class Controller {
 	public $db;
 
 	/**
-	 * @param $f3 Base FatFree instance for easy access.
+	 * @param $f3 \Base FatFree instance for easy access.
 	 */
 	public $f3;
 
@@ -17,7 +19,7 @@ class Controller {
 	 */
 	public $params;
 	/**
-	 * @param $attributes stdClass JSON attributes passed to route.
+	 * @param $attributes \stdClass JSON attributes passed to route.
 	 */
 	public $attributes;
 	/**
@@ -34,7 +36,7 @@ class Controller {
 
     /**
      * Controller constructor.
-     * @param $f3 Base
+     * @param $f3 \Base
      */
     public function __construct($f3)
 	{
