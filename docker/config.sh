@@ -1,5 +1,5 @@
 #!/bin/bash
 
-service=homecore
+service=service-name
 appPort=80
-externalPort=1331
+externalPort=12345
