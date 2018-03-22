@@ -72,7 +72,8 @@ class Model extends Mapper
      * Internal edit so I dont have to repeat myself.
      * @param $values
      */
-    private function _edit($values) {
+    private function _edit($values)
+    {
         $this->copyFrom($values);
         $this->update();
     }
